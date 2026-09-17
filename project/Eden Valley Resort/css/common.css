@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*요소 여백 초기화 */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+/* 표 테두리 선 단선표기 */
+table {border-collapse: collapse; width: 100%;}
+
+/* 목록요소의 불릿 기호 없애기 */
+ol,ul {list-style: none;}
+
+/* 하이퍼링크 밑줄, 글자색 */
+a {text-decoration: none; color: #000;}
+
+/* 글자 기울임 초기설정 */
+address,em {font-style: normal;}
+
+/* float해제 높이값 주기 */
+.clearfix::after {content: ''; clear: both; display: block;}
+
+/* form 초기화 */
+legend {display: none;}
+fieldset,input {border: 0; vertical-align: middle;}
+
+

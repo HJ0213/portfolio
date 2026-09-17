@@ -1,0 +1,85 @@
+예시 코드
+코드 설명
+
+
+allowTouchMove: false
+false값을 넣을 경우 슬라이드를 터치를 통해 직접 움직일 수 없습니다.slidePrev, slideNext와 같은 슬라이드 조작 버튼이나 autoplay와 같은 외부 요소를 통해서는 움직일 수 있습니다.
+
+
+autoHeight: true
+true로 설정하면 슬라이드 내용의 높이에 따라 자동으로 슬라이드의 높이를 조정합니다.
+
+
+breakpoints(예시 코드 →)
+브라우저의 크기별로 반응형 설정을 할 수 있습니다.breakpoints: {        // 브라우저 320px 크기일 경우        320: { slidesPerView: 3, spaceBetween: 20, },        // 브라우저 480px 크기일 경우        480: { slidesPerView: 3, spaceBetween: 30, },        // 브라우저 640px 크기일 경우        640: { slidesPerView: 4, spaceBetween: 40, }},
+
+
+direction: 'horizontal'direction: 'vertical'
+슬라이드의 진행 방향을 정합니다.horizontal = 가로(기본) | vertical = 세로
+
+
+effect: 'slide'
+'slide' | 'fade' | 'cube' | 'coverflow' | 'flip'다섯 가지의 슬라이드 전환 효과를 부여할 수 있습니다.effect: 'slide' // 기본 슬라이드 전환effect: 'fade' // 희미해지면서 슬라이드 전환effect: 'cube' // 큐브 형태로 전환effect: 'coverflow' // 약간의 그림자와 함께 슬라이드를 밀어내며 전환effect: 'flip' // 카드를 뒤집듯이 전환
+
+
+enabled: false
+슬라이드의 활성화 여부를 정할 수 있습니다.false 값을 넣으면 슬라이드의 모든 요소가 비활성화됩니다.
+
+
+followFinger: false
+
+슬라이더를 터치하고 놓을 때만 애니메이션이 적용됩니다.effect 옵션과 함께 사용하면 슬라이드 사용자가 터치로 슬라이드 애니메이션을 마음대로 움직일 수 없고 터치를 끝냈을 때만 적용됩니다.
+예시 보기
+더보기
+[followFinger: true(적용 전)][followFinger: false(적용 후)]
+
+
+
+
+
+
+grabCursor: true
+
+데스크탑에서 슬라이드에 커서를 올렸을 때 그랩 커서를 보여줍니다.
+
+
+
+loop: true
+
+슬라이드를 계속 반복합니다.[슬라이드 순서]false: slide 1 → slide 2 → slide 3 → endtrue: slide 1 → slide 2 → slide 3 → slide 1 → ……
+
+
+
+on
+
+이벤트 핸들러를 등록할 때 사용합니다.
+
+
+
+slidesPerView: 1
+슬라이드 표시 개수입니다.
+예시 보기
+더보기
+[slidesPerView: 2][slidesPerView: 3]
+
+
+
+
+
+spaceBetween: 0
+슬라이드 간 거리를 조절합니다. (px 단위)
+예시 보기
+더보기
+[spaceBetween: 20]
+
+
+
+
+
+speed: 1000
+슬라이드가 전환될 때의 시간을 지정합니다. (밀리초 단위, 1000 = 1초)
+
+
+touchRatio: 1
+터치 비율을 조정합니다.숫자가 올라갈수록 슬라이드를 넘길 때 필요한 터치 동작이 줄어듭니다.
+출처: https://www.biew.co.kr/entry/임시-비공개-Swiper-수정-예정-글 [웹퍼블리싱 - 퍼블리싱 이야기 맑은커뮤니케이션:티스토리]

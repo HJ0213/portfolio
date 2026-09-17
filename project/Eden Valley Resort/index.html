@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- opengraph -->
+    <meta property="og:site_name" content="에덴밸리"> <!-- 이름 -->
+    <meta property="og:url" content="http://www.edenvalley.com"> <!-- 도메인 주소 -->
+    <meta property="og:type" content="website"> <!-- 웹사이트-->
+    <meta property="og:title" content="에덴밸리">
+    <meta property="og:description" content="영남 유일의 사계절 종합힐링타운 에덴밸리!">
+    <meta property="og:image" content="images/og_img.jpg"> <!-- 2:1 비율 -->
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>에덴밸리</title>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/ani.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scrolltrigger.js"></script>
+    <script src="js/common.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="index.html"><img src="images/logo.png" alt="에덴밸리"></a></h1>
+
+                <nav>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">에덴밸리</a>
+                                <ul class="depth2">
+                                    <li><a href="#">에덴밸리 소개</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="#">골프</a>
+                                <ul class="depth2">
+                                    <li><a href="#">코스 안내</a></li>
+                                    <li><a href="#">EDEN 코스</a></li>
+                                    <li><a href="#">VALLEY 코스</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="sub/SnowPark.html">스노우파크</a>
+                                <ul class="depth2">
+                                    <li><a href="sub/SnowPark.html">슬로프 안내</a></li>
+                                    <li><a href="sub/SnowPark.html">이용 안내</a></li>
+                                    <li><a href="sub/SnowPark.html">튜브눈썰매장</a></li>
+                                    <li><a href="sub/SnowPark.html">스키학교</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="#">레저스포츠</a>
+                                <ul class="depth2">
+                                    <li><a href="#">레포츠타운</a></li>
+                                    <li><a href="#">루지</a></li>
+                                    <li><a href="#">워터플레이</a></li>
+                                    <li><a href="#">정통승마클럽</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="#">리조트</a>
+                                <ul class="depth2">
+                                    <li><a href="#">객실 안내</a></li>
+                                    <li><a href="#">객실 요금</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+
+                <div class="ham"><img src="images/ham.png" alt="메뉴보기"></div>
+                
+                <div class="mgnb_wrap">
+                    <ul class="mgnb">
+                        <li>
+                            <a href="#">에덴밸리</a>
+                                <ul class="mdepth2 clearfix">
+                                    <li><a href="#">에덴밸리 소개</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="#">골프</a>
+                                <ul class="mdepth2 clearfix">
+                                    <li><a href="#">코스 안내</a></li>
+                                    <li><a href="#">EDEN 코스</a></li>
+                                    <li><a href="#">VALLEY 코스</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="#">스노우파크</a>
+                                <ul class="mdepth2 clearfix">
+                                    <li><a href="#">슬로프 안내</a></li>
+                                    <li><a href="#">이용 안내</a></li>
+                                    <li><a href="#">튜브눈썰매장</a></li>
+                                    <li><a href="#">스키학교</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="#">레저스포츠</a>
+                                <ul class="mdepth2 clearfix">
+                                    <li><a href="#">레포츠타운</a></li>
+                                    <li><a href="#">루지</a></li>
+                                    <li><a href="#">워터플레이</a></li>
+                                    <li><a href="#">정통승마클럽</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <a href="#">리조트</a>
+                                <ul class="mdepth2 clearfix">
+                                    <li><a href="#">객실 안내</a></li>
+                                    <li><a href="#">객실 요금</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                    
+                    <div class="mgnb_close"><img src="images/mgmb_close.png" alt="메뉴닫기"></div>
+                </div>
+                </nav>
+
+                    <ul class="util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">회원권</a></li>
+                    </ul> 
+            </div><!-- //inner -->
+            
+            <div class="depth2_bg"></div>
+        </header>
+
+        <div id="container">
+            <article id="main_visual">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>GOLF</dt>
+                            <dd><a href="#" class="view1">VIEW</a></dd>
+                            <dd><a href="#" class="view2">예약하기</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>SKI</dt>
+                            <dd><a href="#" class="view1">VIEW</a></dd>
+                            <dd><a href="#" class="view2">예약하기</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>LEISURE</dt>
+                            <dd><a href="#" class="view1">VIEW</a></dd>
+                            <dd><a href="#" class="view2">예약하기</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>RESORT</dt>
+                            <dd><a href="#" class="view1">VIEW</a></dd>
+                            <dd><a href="#" class="view2">예약하기</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+
+                <div class="main_scroll">
+                    <img src="images/icon_scroll.png" alt="내려가기">
+                </div>
+            </article>
+
+            <section id="season">
+                <div class="inner clearfix">
+                    <div class="season_txt ani ani-start-fadeLeftReverse">
+                        <h2><img src="images/season_h2.jpg" alt="Eden Valley Resort"></h2>
+                        <p>
+                            영남 유일의<br class="bl">
+                            사계절 종합힐링타운<br class="bl">
+                            에덴밸리!
+                        </p>
+                        <a href="#" class="season_view">view</a>
+                    </div><!-- //season_txt -->
+
+                    <div class="pager">
+                        <ul class="paging ani ani-start-fadeLeftReverse">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ul>
+
+                        <p class="paging_show ani ani-start-fadeLeftReverse">/<span>4</span></p>
+                    </div><!-- //pager -->    
+                </div><!-- //inner -->
+
+                <div class="season_img">
+                        <ul class="season_mv">
+                            <li class="spring ani ani-start-fadeLeft">
+                                <div class="mv_txt">
+                                    <dl>
+                                        <dt>봄</dt>
+                                        <dd>싱그러운 자연에서 박진감 넘치는 레저스포츠를 즐기세요!<br>
+                                            루지, 산악바이크, 승마 등 다양한 레저시설이 함께합니다.
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="summer">
+                                <div class="mv_txt">
+                                    <dl>
+                                        <dt>여름</dt>
+                                        <dd>초대형 워터슬라이드로 무더위 쓸어버리고<br>
+                                            후끈후끈열기 가득한 여름 더위는 에덴밸리에서 모두 날려보세요!
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="fall">
+                                <div class="mv_txt">
+                                    <dl>
+                                        <dt>가을</dt>
+                                        <dd>영남 알프스 천혜의 자연경관과 아름다움을 그대로 보전하여<br>
+                                            친환경적인 에덴밸리 컨트리클럽에서 세계적인 골프 설계자<br>
+                                            로저 베어드의 숨결을 느껴보세요!
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="winter">
+                                <div class="mv_txt">
+                                    <dl>
+                                        <dt>겨울</dt>
+                                        <dd>영남 유일 스키장 짜릿하고 즐거운 스키&보드<br>
+                                            에덴밸리에서 다이나믹한 겨울을 즐겨보세요!
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </li>
+                        </ul>
+                </div><!-- //season_img -->
+            </section>
+
+            <section id="package">
+                <div class="package_txt">
+                    <h2 class="ani ani-start-fadeUp">에덴밸리 패키지</h2>
+                    <p class="ani ani-start-fadeUp">당신만을 위한 추천상품과 서비스를<br>
+                            한 눈에 확인해보세요!</p>
+                </div><!-- //package_txt -->
+
+                <div class="package_list ani ani-start-fadeDown">
+                    <div>
+                        <a href="#">
+                       <h3>#All</h3>
+                        <p class="package_view">view</p>
+                        </a>
+                    </div>
+
+                    <div>공간</div>
+
+                    <div>
+                        <a href="#">
+                        <h3>#가족</h3>
+                        <p class="package_view">view</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                        <h3>#친구</h3>
+                        <p class="package_view">view</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                        <h3>#연인</h3>
+                        <p class="package_view">view</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                        <h3>#액티비티</h3>
+                        <p class="package_view">view</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="package_view02"><a href="#">더보기</a></div>
+            </section><!-- //package -->
+
+            <section id="event">
+                <div class="inner">
+                    <div class="event_img">
+                        <ul class="event_list ani ani-start-fadeLeftReverse">
+                            <li><img src="images/event_01.jpg" alt="야간스키강습"></li>
+                            <li><img src="images/event_01.jpg" alt="야간스키강습"></li>
+                            <li><img src="images/event_01.jpg" alt="야간스키강습"></li>
+                        </ul>
+                    </div>
+
+                    <div class="event_txt">
+                        <h2>이벤트</h2>
+                        <p>다양한 혜택 놓치지 말고<br>
+                            확인하세요!</p>
+                        <a class="btn_view">view</a>
+                    </div>
+                </div>
+            </section><!-- //event -->
+
+            <section id="sports">
+                <h2>종합 스포츠</h2>
+                <p>에덴밸리에서 다양한 스포츠를 즐겨보세요!</p>
+
+                <ul class="sports_list">
+                    <li class="ani ani-start-fadeUp">
+                        <a href="#">
+                            <img src="images/sports_01.png" alt="루지">
+                            <div class="over">
+                                <h3>#루지</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ani ani-start-fadeUp ani-delay-04">
+                        <a href="#">
+                            <img src="images/sports_02.png" alt="스키">
+                            <div class="over">
+                                <h3>#스키</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ani ani-start-fadeUp ani-delay-07">
+                        <a href="#">
+                            <img src="images/sports_03.png" alt="워터플레이">
+                            <div class="over">
+                                <h3>#워터플레이</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ani ani-start-fadeUp ani-delay-10">
+                        <a href="#">
+                            <img src="images/sports_04.png" alt="골프">
+                            <div class="over">
+                                <h3>#골프</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ani ani-start-fadeUp">
+                        <a href="#">
+                            <img src="images/sports_05.png" alt="클라이밍">
+                            <div class="over">
+                                <h3>#클라이밍</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ani ani-start-fadeUp ani-delay-04">
+                        <a href="#">
+                            <img src="images/sports_06.png" alt="승마">
+                            <div class="over">
+                                <h3>#승마</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ani ani-start-fadeUp ani-delay-07">
+                        <a href="#">
+                            <img src="images/sports_07.png" alt="튜브눈썰매장">
+                            <div class="over">
+                                <h3>#튜브눈썰매장</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ani ani-start-fadeUp ani-delay-10">
+                        <a href="#">
+                            <img src="images/sports_08.png" alt="유로번지">
+                            <div class="over">
+                                <h3>#유로번지</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section><!-- //sports -->
+
+            <section id="sightsee">
+                <div class="video_wrap">
+                    <video src="images/sightsee_01.mp4" autoplay muted loop></video>
+                </div>
+
+                <div class="sightsee_txt">
+                    <h2 class="ani ani-start-fadeUp">주변 관광지 안내</h2>
+                    <p class="ani ani-start-fadeUp">에덴밸리 주변 양산 8경의 자연경관을 <br class="none">직접 경험해 보세요!</p>
+                </div>
+
+                <a href="#">view</a>
+            </section><!-- //sightsee -->
+
+            <section id="map">
+                <div class="map_wrap ani ani-start-fadeIn">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.038491269695!2d128.98009073488768!3d35.429076500000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35689851454a7c91%3A0xbe3c013d07fb926c!2z7JeQ642067C466as66as7KGw7Yq4!5e0!3m2!1sko!2skr!4v1655689196063!5m2!1sko!2skr" width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                    
+                <div class="map_txt_wrap">
+                    <div class="map_img ani ani-start-fadeLeft">에덴밸리입구</div>
+
+                    <div class="map_txt ani ani-start-fadeLeft">
+                        <h2>에덴밸리 리조트</h2>
+                        <p>경상남도 양산시 원동면 대리 1039</p>
+                        <a href="#">구글 지도로 보기</a>
+                        <ul>
+                            <li><img src="images/icon_bus02.png" alt="셔틀버스">
+                                <p>셔틀버스</p>
+                            </li>
+                            <li><img src="images/icon_car.png" alt="승용차">
+                                <p>승용차</p>
+                            </li>
+                            <li><img src="images/icon_bus.png" alt="대중교통">
+                                <p>대중교통</p>
+                            </li>
+                        </ul>
+                    </div><!-- //map_txt -->
+                </div>
+
+            </section>
+        </div><!-- //container -->
+
+        <footer id="footer">
+            <div class="inner clearfix">
+                <div class="footer_logo">
+                    <img src="images/logo.png" alt="에덴밸리 로고">
+                </div>
+
+                <div class="footer_wrap">
+                    <ul class="footer_link">
+                        <li><a href="#">에덴밸리 소개</a></li>
+                        <li><a href="#">회원권분양</a></li>
+                        <li><a href="#">교통안내</a></li>
+                        <li><a href="#">날씨안내</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+
+                    <ul class="footer_sns">
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">youtube</a></li>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">blogger</a></li>
+                    </ul>
+
+                    <div class="footer_txt">
+                        <address>주식회사 에덴밸리리조트 경상남도 양산시 원동면 어실로 1206  <br class="none"> <span> 대표이사 : 황연수 </span>대표전화 : 055) 379 - 8000 <br>
+                            팩스 : 055) 379 - 8080<span>사업자등록번호 : 621-81-94677</span><br class="none"> 통신판매신고 : 제2012-경남양산-0062호</address>
+                        <p class="copy">Copyright &copy; Edenvalley Resort 2010. All right reserved.</p>
+                    </div><!-- //footer_txt -->
+                </div>
+            </div><!-- //inner -->
+        </footer>
+
+        <div class="gotop">위로가기</div>
+    </div><!-- //wrap -->
+</body>
+</html>
